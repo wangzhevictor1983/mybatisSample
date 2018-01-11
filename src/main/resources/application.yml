@@ -2,10 +2,10 @@ server:
   port: 9191
 
 #mybatis
-#mybatis:  
- # typeAliasesPackage: com.example.demo.entity  
-  #mapperLocations: classpath:/com/example/demo/mapper/*.xml  
-  #configLocation: classpath:/mybatis-config.xml
+mybatis:  
+  typeAliasesPackage: com.example.demo.entity  
+  mapperLocations: classpath:/com/example/demo/mapper/*.xml  
+  configLocation: classpath:/mybatis-config.xml
   
 # password Helpe_Imarket_123
 spring:
